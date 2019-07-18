@@ -4,9 +4,9 @@
 \alias{HS.normal.means}
 \title{The horseshoe prior for the sparse normal means problem}
 \usage{
-HS.normal.means(y, method.tau = c("fixed", "truncatedCauchy", "halfCauchy"),
-  tau = 1, method.sigma = c("fixed", "Jeffreys"), Sigma2 = 1,
-  burn = 1000, nmc = 5000, alpha = 0.05)
+HS.normal.means(y, method.tau = c("fixed", "truncatedCauchy",
+  "halfCauchy"), tau = 1, method.sigma = c("fixed", "Jeffreys"),
+  Sigma2 = 1, burn = 1000, nmc = 5000, alpha = 0.05)
 }
 \arguments{
 \item{y}{The data. A \eqn{n*1} vector.}
@@ -106,13 +106,16 @@ library(Hmisc)
 xYplot(Cbind(res.HS2$BetaHat, res.HS2$LeftCI, res.HS2$RightCI) ~ 1:100)
 }
 \references{
-van der Pas, S. L., Szabo, B., and an der Vaart, A. W. (2016), How many needles
-  in the haystack? Adaptive inference and uncertainty quantification for
-  the horseshoe. arXiv:1607.01892
+van der Pas, S.L., Szabo, B., and van der Vaart, A. (2017), Uncertainty
+quantification for the horseshoe (with discussion). Bayesian Analysis
+12(4), 1221-1274.
+
+van der Pas, S.L., Szabo, B., and van der Vaart A. (2017), Adaptive
+posterior contraction rates for the horseshoe. Electronic Journal of
+Statistics 10(1), 3196-3225.
 }
 \seealso{
 \code{\link{HS.post.mean}} for a fast way to compute the posterior mean
 if an estimate of tau is available. \code{\link{horseshoe}} for linear regression.
 \code{\link{HS.var.select}} to perform variable selection.
 }
-

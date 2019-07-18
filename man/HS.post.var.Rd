@@ -54,8 +54,8 @@ Carvalho, C. M., Polson, N. G., and Scott, J. G. (2010), The horseshoe
  estimator for sparse signals. Biometrika 97(2), 465–480.
 
  van der Pas, S. L., Kleijn, B. J. K., and van der Vaart, A. W. (2014), The horseshoe
-  estimator: Posterior concentration around nearly black vectors. Electron.
-   J. Statist. 8(2), 2585–2618.
+  estimator: Posterior concentration around nearly black vectors. Electronic
+   Journal of Statistics 8(2), 2585–2618.
 }
 \seealso{
 \code{\link{HS.post.mean}} to compute the posterior mean. See
@@ -63,4 +63,3 @@ Carvalho, C. M., Polson, N. G., and Scott, J. G. (2010), The horseshoe
  returns credible intervals as well as the posterior mean (and other quantities).
 See \code{\link{horseshoe}} for linear regression.
 }
-

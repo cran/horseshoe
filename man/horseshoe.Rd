@@ -56,11 +56,11 @@ of tau passed to the function.}
 \item{Sigma2Samples}{Posterior samples of Sigma2.}
 }
 \description{
-This function employs the algorithm proposed in Bhattacharya et al. (2015).
+This function employs the algorithm proposed in Bhattacharya et al. (2016).
 The global-local scale parameters are updated via a slice sampling scheme given
  in the online supplement of Polson et al. (2014). Two different algorithms are
  used to compute posterior samples of the \eqn{p*1} vector of regression coefficients \eqn{\beta}.
- The method proposed in Bhattacharya et al. (2015) is used when \eqn{p>n}, and the
+ The method proposed in Bhattacharya et al. (2016) is used when \eqn{p>n}, and the
  algorithm provided in Rue (2001) is used for the  case \eqn{p<=n}. The function
  includes options for full hierarchical Bayes versions with hyperpriors on all
  parameters, or empirical Bayes versions where some parameters are taken equal
@@ -114,8 +114,9 @@ xYplot(Cbind(res2$BetaHat, res2$LeftCI, res2$RightCI) ~ 1:100)
 
 }
 \references{
-Bhattacharya, A., Chakraborty, A. and Mallick, B.K. (2015), Fast Sampling
-with Gaussian Scale-Mixture priors in High-Dimensional Regression.
+Bhattacharya A., Chakraborty A., and Mallick B.K (2016), Fast sampling
+with Gaussian scale-mixture priors in high-dimensional regression.
+Biometrika 103(4), 985–991.
 
 Polson, N.G., Scott, J.G. and Windle, J. (2014) The Bayesian Bridge.
 Journal of Royal Statistical Society, B, 76(4), 713-733.
@@ -132,4 +133,3 @@ normal means problem (design matrix X equal to identity matrix) and
 \code{\link{HS.post.mean}} for a fast way to estimate the posterior mean in the sparse
 normal means problem when a value for tau is available.
 }
-

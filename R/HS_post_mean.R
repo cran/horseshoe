@@ -25,8 +25,8 @@
 #'  estimator for sparse signals. Biometrika 97(2), 465–480.
 #'
 #'  van der Pas, S. L., Kleijn, B. J. K., and van der Vaart, A. W. (2014), The horseshoe
-#'   estimator: Posterior concentration around nearly black vectors. Electron.
-#'    J. Statist. 8(2), 2585–2618.
+#'   estimator: Posterior concentration around nearly black vectors. Electronic
+#'    Journal of Statistics 8(2), 2585–2618.
 #'
 #'@seealso \code{\link{HS.post.var}} to compute the posterior variance. See
 #'  \code{\link{HS.normal.means}} for an implementation that does use MCMC, and

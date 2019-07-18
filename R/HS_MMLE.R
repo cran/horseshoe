@@ -28,9 +28,13 @@
 #' on \eqn{\tau} is preferred, see \code{\link{HS.normal.means}} for the normal means problem, or
 #' \code{\link{horseshoe}} for linear regression.
 #'
-#' @references van der Pas, S.L.; Szabo, B., and van der Vaart, A.W. (2016), How many
-#'  needles in the haystack? Adaptive inference and uncertainty quantification
-#'   for the horseshoe. arXiv:1607.01892
+#' @references van der Pas, S.L., Szabo, B., and van der Vaart, A. (2017), Uncertainty
+#' quantification for the horseshoe (with discussion). Bayesian Analysis
+#' 12(4), 1221-1274.
+#'
+#' van der Pas, S.L., Szabo, B., and van der Vaart A. (2017), Adaptive
+#' posterior contraction rates for the horseshoe. Electronic Journal of
+#' Statistics 10(1), 3196-3225.
 #'
 #' @examples
 #' \dontrun{#Example with 5 signals, rest is noise

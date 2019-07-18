@@ -10,4 +10,3 @@ Basic.y.vec(y, tau, k, data.var)
 Helper function for computing the posterior mean, posterior variance
 }
 \keyword{internal}
-
